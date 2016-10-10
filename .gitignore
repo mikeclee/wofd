@@ -1,0 +1,23 @@
+# Git Ignore configuration for the Repository
+
+# Directory matching with ending /
+.buildpath/
+.idea/
+.project/
+.settings/
+.DS_Store/
+node_modules/
+target/
+tests/code_coverage/
+
+# File matching
+*.iml
+*.scssc
+*.swo
+*.swp
+dev-configs/*config.json
+npm-debug.log
+tmp-*
+
+# Negation matching with starting !
+!dev-configs/default*
